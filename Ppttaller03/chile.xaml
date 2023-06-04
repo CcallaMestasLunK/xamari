@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ppttaller03.chile" BackgroundImageSource="fondochile">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Conversiones de pesos chilenos" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+            <Label></Label>
+            <Label></Label>
+
+            <Label Text="Introduzca el número de pesos chilenos"  TextColor="Black" FontSize="Medium" HorizontalTextAlignment="Center"></Label>
+            <Entry x:Name="PesosChilenos" Keyboard="Numeric"  TextColor="Black"></Entry>
+            <Label></Label>
+            <Label></Label>
+
+            <Button Text="De pesos chilenos a dolares" x:Name="Dolares" BackgroundColor="#6666AA"  TextColor="White" Clicked="dolares_clicked"></Button>
+            <Button Text="De pesos chilenos a euros" x:Name="Euros" BackgroundColor="#6666AA"  TextColor="White" Clicked="euros_clicked"></Button>
+            <Label></Label>
+            <Label></Label>
+
+            <Label FontSize="Medium" x:Name="rpta"  TextColor="Black" HorizontalTextAlignment="Center"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

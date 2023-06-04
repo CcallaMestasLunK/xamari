@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ppttaller03.bolivia" BackgroundImageSource="fondobolivia">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Conversiones de bolivianos" TextColor="White" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+            <Label></Label>
+            <Label></Label>
+
+            <Label Text="Introduzca el número bolivianos" FontSize="Medium" TextColor="White" HorizontalTextAlignment="Center"></Label>
+            <Entry x:Name="bolivianos" Keyboard="Numeric"  TextColor="White"></Entry>
+            <Label></Label>
+            <Label></Label>
+
+            <Button Text="De pesos a dolares" x:Name="Dolares" BackgroundColor="#6666AA"  TextColor="White" Clicked="dolares_clicked"></Button>
+            <Button Text="De pesos a euros" x:Name="Euros" BackgroundColor="#6666AA"  TextColor="White" Clicked="euros_clicked"></Button>
+            <Label></Label>
+            <Label></Label>
+
+            <Label FontSize="Medium" x:Name="rpta" TextColor="White" HorizontalTextAlignment="Center"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

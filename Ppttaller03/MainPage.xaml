@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ppttaller03.MainPage" BackgroundImageSource="backimg">
+
+    <StackLayout>
+          <Label Text="BIENVENIDO AL CONVERTIDOR DE MONEDAS"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+
+        <Label Text="En este App usted podrá convertir monedas de países latinoamericanos de la lista" FontSize="Title" TextColor="Black" Padding="30,10,30,10"/>
+        <Label Text="Perú" FontSize="16" VerticalTextAlignment="Center" Padding="30,0,30,0" TextColor="Red"/>
+        <Label Text="Chile" FontSize="16" VerticalTextAlignment="Center" Padding="30,0,30,0" TextColor="Blue"/>
+        <Label Text="Bolivia" FontSize="16" VerticalTextAlignment="Center" Padding="30,0,30,0" TextColor="#DFCE2D"/>
+        <Label Text="México" FontSize="16" VerticalTextAlignment="Center" Padding="30,0,30,0" TextColor="Green"/>
+        <Label FontSize="16" Padding="30,24,30,0"/>
+        <Button  Text="Ingresar a la app" Clicked="ingresar" BackgroundColor="#6666AA"  TextColor="White" FontSize="16"/>
+
+    </StackLayout>
+
+</ContentPage>

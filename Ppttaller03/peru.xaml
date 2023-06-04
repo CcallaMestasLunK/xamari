@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ppttaller03.peru" BackgroundImageSource="fondoperu">
+    <ContentPage.Content>
+      
+            <StackLayout>
+            <Label Text="Conversiones de soles" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                <Label></Label>
+                <Label></Label>
+
+                <Label Text="Introduzca el número de soles" FontSize="Medium" HorizontalTextAlignment="Center"></Label>
+            <Entry x:Name="Soles" Keyboard="Numeric"  TextColor="Black"></Entry>
+                <Label></Label>
+                <Label></Label>
+
+            <Button Text="De pesos a dolares" x:Name="Dolares" BackgroundColor="#6666AA"  TextColor="White" Clicked="dolares_clicked"></Button>
+            <Button Text="De pesos a euros" x:Name="Euros" BackgroundColor="#6666AA"  TextColor="White" Clicked="euros_clicked"></Button>
+                <Label></Label>
+                <Label></Label>
+
+            <Label FontSize="Medium" x:Name="rpta" HorizontalTextAlignment="Center"  TextColor="Black"></Label>
+
+        </StackLayout>
+      
+    </ContentPage.Content>
+</ContentPage>
